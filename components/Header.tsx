@@ -12,7 +12,9 @@ const Header = () => {
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">
-            <div className="mr-3">{/* <Logo /> */} Just Sam</div>
+            <div className="mr-3 text-xl bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-purple-400">
+              {/* <Logo /> */}Just Sam
+            </div>
           </div>
         </Link>
       </div>

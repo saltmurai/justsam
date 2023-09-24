@@ -1,19 +1,11 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
-  {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Ground Control Station (Web based) for UAV',
+    description: `A web based Ground control station to automate the process of mission planning on UAV.
+		Extending the MavLINK protocol to the Web. I build the frontend with NextJS w Typescript and a Backend fully containerized with Docker in Golang and Python for the MavLINK communication.
+		I won the best presentation award for this graduation project. The demo can be found in the links below. Code are opensourced in My Github.`,
+    imgSrc: '/static/images/drone.jpeg',
+    href: 'https://youtu.be/2SiGwGvP62g',
   },
 ]
 
